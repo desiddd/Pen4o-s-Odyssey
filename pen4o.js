@@ -1,4 +1,4 @@
-function pen4o(a, b, c) {
+function validateTriangle(a, b, c) {
     if (a < b +c, b < a + c, c < a +b ){
         console.log(`The Triangle of Truth with sides ${a}, ${b}, and ${c} has been validated. Pen4o, you may begin your journey!`);
     }
@@ -8,4 +8,4 @@ function pen4o(a, b, c) {
     }
 }
 
-pen4o(1, 2, 3);
+validateTriangle(1, 2, 3);
